@@ -1,0 +1,202 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.demo {
+    width: 40%;
+    margin-top: 200px;
+    margin-left: 500px;
+}
+.demo span {
+    color: #D1A403;
+}
+.demo ul {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.demo  p{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+}
+.demo input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #0A8F60;
+}
+.demo label{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.demo button {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #D1A403;
+
+    
+}
+.demo:hover button {
+    background-color:  #0A8F60;
+}
+.demo a {
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 320px){
+    .demo {
+        margin-top: 150px;
+    }
+}
+@media (max-width: 360px){
+    .demo {
+        width: 70%;
+        margin-left: 50px;
+    }
+    .demo p {
+        font-size: 20px;
+    }
+    .demo ul {
+        font-size: 15px;
+        padding-left: 34px;
+        padding-bottom: 10px;
+    }
+    .demo label {
+        font-size: 15px;
+    }
+    .demo input {
+        width: 100%;
+        padding: 9px;
+        margin-bottom: 30px;
+        border-radius: 6px;
+    }
+    .demo button {
+        width: 100%;
+        border-radius: 6px;
+    }
+}
+@media (max-width: 393px){
+    .demo {
+        width: 70%;
+        margin-left: 60px;
+    }
+    .demo p {
+        font-size: 20px;
+    }
+    .demo ul {
+        font-size: 15px;
+        padding-left: 34px;
+        padding-bottom: 10px;
+    }
+    .demo label {
+        font-size: 15px;
+    }
+    .demo input {
+        width: 100%;
+        padding: 9px;
+        margin-bottom: 30px;
+        border-radius: 6px;
+    }
+    .demo button {
+        width: 100%;
+        border-radius: 6px;
+    }
+}
+@media (max-width: 414px){
+    .demo {
+        width: 70%;
+        margin-left: 60px;
+    }
+    .demo p {
+        font-size: 20px;
+    }
+    .demo ul {
+        font-size: 15px;
+        padding-left: 34px;
+        padding-bottom: 10px;
+    }
+    .demo label {
+        font-size: 15px;
+    }
+    .demo input {
+        width: 100%;
+        padding: 9px;
+        margin-bottom: 30px;
+        border-radius: 6px;
+    }
+    .demo button {
+        width: 100%;
+        border-radius: 6px;
+    }
+}
+@media (max-width: 428px){
+    .demo {
+        width: 70%;
+        margin-left: 60px;
+    }
+    .demo p {
+        font-size: 20px;
+    }
+    .demo ul {
+        font-size: 15px;
+        padding-left: 34px;
+        padding-bottom: 10px;
+    }
+    .demo label {
+        font-size: 15px;
+    }
+    .demo input {
+        width: 100%;
+        padding: 9px;
+        margin-bottom: 30px;
+        border-radius: 6px;
+    }
+    .demo button {
+        width: 100%;
+        border-radius: 6px;
+    }
+}
+@media (max-width: 162px){
+    .first {
+        width: 30px;
+        height: 30px;
+    }
+    .second {
+        width: 100px;
+    }
+    .demo {
+        width: 70%;
+        margin-left: 25px;
+        margin-top: 50px;
+    }
+    .demo p {
+        font-size: 14.5px;
+    }
+    .demo ul {
+        font-size: 10px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    .demo label {
+        font-size: 10px;
+    }
+    .demo input {
+        width: 100%;
+        padding: 9px;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        font-size: 9px;
+    }
+    .demo button {
+        width: 100%;
+        border-radius: 6px;
+        margin-bottom: 20px;
+    }
+}

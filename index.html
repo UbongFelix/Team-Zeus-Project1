@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshFare Mart</title>
+    <link rel="icon" href="assets/images/logo.svg">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <header class="landing-header">
+        <div class="logo">
+            <img class="first" src="/assets/images/logo.svg" alt="">
+            <img class="second" src="/assets/images/company name.svg" alt="">
+        </div>
+
+        <div class="banner-right">
+            <a href="/project nyx/signup.html" class="profile" ><img  src="/assets/images/profile.svg" alt="">
+            </a>
+            <!-- gpt heart -->
+            <a href="#" class="nav-heart" id="icon1">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="24.5" fill="white" stroke="#84CBB2"/>
+                    <path d="M15.5633 27.3853L24.3153 35.6068C24.6398 35.9116 24.802 36.064 25 36.064C25.198 36.064 25.3602 35.9116 25.6847 35.6068L25.6847 35.6068L34.4367 27.3853C36.8819 25.0882 37.1788 21.3082 35.1223 18.6576L34.7356 18.1592C32.2753 14.9882 27.337 15.52 25.6083 19.1421C25.3641 19.6537 24.6359 19.6537 24.3917 19.1421C22.663 15.52 17.7246 14.9882 15.2644 18.1592L14.8777 18.6576C12.8212 21.3083 13.1181 25.0882 15.5633 27.3853Z" stroke="#0A8F60" stroke-width="2"/>
+                    </svg>
+                <span id="like-counter">0</span>
+            </a>
+
+
+            <!--  -->
+            <a href="#" class="nav-cart" id="icon2">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="24.5" fill="white" stroke="#84CBB2"/>
+                    <path d="M15 15H17.1884C17.9384 15 18.3134 15 18.5846 15.2118C18.8559 15.4236 18.9468 15.7874 19.1287 16.5149L19.3937 17.5746C19.6107 18.4427 19.7192 18.8768 19.9614 19.1998C20.1742 19.4836 20.4587 19.7057 20.7857 19.8434C21.1578 20 21.6052 20 22.5 20V20" stroke="#0A8F60" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M32.5 31.25H19.4386C18.9444 31.25 18.6972 31.25 18.5203 31.1802C18.1567 31.0367 17.9101 30.6945 17.8889 30.3042C17.8786 30.1142 17.9567 29.8798 18.113 29.4109V29.4109C18.2864 28.8909 18.373 28.6309 18.5076 28.421C18.7816 27.9933 19.208 27.686 19.7004 27.5612C19.9421 27.5 20.2162 27.5 20.7642 27.5H27.5" stroke="#0A8F60" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M30.0139 27.5H21.6943C20.7166 27.5 19.8822 26.7932 19.7215 25.8288L19.0411 21.7466C18.8887 20.8323 19.5938 20 20.5207 20H33.382C34.1253 20 34.6088 20.7823 34.2764 21.4472L31.8028 26.3944C31.464 27.072 30.7715 27.5 30.0139 27.5Z" stroke="#0A8F60" stroke-width="2" stroke-linecap="round"/>
+                    <circle cx="31.25" cy="35" r="1.25" fill="#0A8F60"/>
+                    <circle cx="21.25" cy="35" r="1.25" fill="#0A8F60"/>
+                    </svg>
+                <span id="cart-counter">0</span>
+            </a>
+        </div>
+                <!-- for the background -->
+        <div class="overlay" id="overlay"></div>
+
+    <div class="sidebar" id="sidebar1">Sidebar Content 1</div>
+    <div class="sidebar" id="sidebar2">Sidebar Content 2</div>
+    <div class="sidebar" id="sidebar3">Sidebar Content 3</div>
+
+    </header>
+    <nav>
+        <div class="links"> 
+            <a class="home " href="#">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">categories <img src="/assets/images/arrow-down.svg" alt=""></button>
+                <div class="dropdown-content">
+                    <a href="#">Protines</a>
+                    <a href="#">Grains</a>
+                    <a href="#">Tubers</a>
+                    <a href="#">Vegetables</a>
+                </div>
+            </div>
+            <a href="/project nyx/About-us.html">About Us</a>
+            <a href="/contact.html">contact</a>
+        </div>
+        <div class="menu">
+            <span class="material-symbols-outlined menu-icon" id="icon3">menu</span>
+        </div>
+        <div class="search">
+            <form>
+                <input type="search" name="search" id="" placeholder="What do you want to buy?" maxlength="50">
+                <button><span class="material-symbols-outlined search-icon">search</span></button>
+            </form>
+        </div>
+    </nav>
+
+    <section class="order-now">
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="/assets/images/order-now1.png" alt="Image 1" class="slide-image">
+                <div class="text">
+                    <h2>Fresh Onions for your <br> Meals</h2>
+                    <a href="#">Order Now</a>
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="/assets/images/order-now3.png" alt="Image 2" class="slide-image">
+                <div class="text">
+                    <h2>Irish Potatoes from our <br> trusted suppliers </h2>
+                    <a href="#">Order Now</a>
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="/assets/images/order-now2.png" alt="Image 3" class="slide-image">
+                <div class="text">
+                    <h2>Secure your share of freshly <br> harvested vegetables</h2>
+                    <a href="#">Order Now</a>
+                </div>
+            </div>
+            <!-- Add more slides as needed -->
+            <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+        </div>
+        <br>
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <!-- Add more dots as needed -->
+        </div>
+    </section>
+
+    <section class="perks">
+        <div class="perk ">
+            <div class="perk-img">
+                <a href="#"><img src="/assets/images/meal suggestion.svg" alt=""></a>
+            </div>
+            <div class="perk-text">
+                <p>Meal Suggestions</p>
+            </div>
+        </div>
+        <div class="perk">
+            <div class="perk-img">
+                <a href="#"><img src="/assets/images/discounted delivery.png" alt=""></a>
+            </div>
+            <div class="perk-text">
+                <p>Discounted Delivery Fee across Uyo</p>
+            </div>
+           
+        </div>
+        <div class="perk">
+            <div class="perk-img">
+                <a href="#"><img src="/assets/images/payment on delivery.png" alt=""></a>
+            </div>
+            <div class="perk-text">
+                <p>Cash payment on Delivery</p>
+            </div>
+        </div>
+        <div class="perk">
+            <div class="perk-img">
+                <a href="#"><img src="/assets/images/order tracking.svg" alt=""></a>
+            </div>
+            <div class="perk-text">
+                <p>Order Tracking</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="product-section">
+        <div class=".header">
+            <h3>Sort by Category</h3>
+            <a href="#">view more <img src="/assets/images/arrow right.svg" alt=""></a>
+        </div>
+        <div class="product-row">
+            <div class="item">
+                <img class="categories-img" src="/assets/images/beef.svg" alt="beef">
+                <h6>protines</h6>
+                <p>Meat, Fish, etc</p>
+            </div>
+            <div class="item">
+                <img class="categories-img" src="/assets/images/rice.svg" alt="beef">
+                <h6>Grains</h6>
+                <p>Rice, Beans, etc</p>
+            </div>
+            <div class="item">
+                <img class="categories-img" src="/assets/images/yam.svg" alt="beef">
+                <h6>Tubers</h6>
+                <p>Yam, cocoyam, etc</p>
+            </div>
+            <div class="item">
+                <img class="categories-img" src="/assets/images/tomatoes.svg" alt="beef">
+                <h6>vegetables</h6>
+                <p>Tomatoes, Carrot, Pepper, etc</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="product-section">
+        <div class=".header">
+            <h3>Featured Sales</h3>
+            <!-- <a href="#">view more <img src="/assets/images/arrow right.svg" alt=""></a> -->
+        </div>
+        <div class="product-row">
+
+            <div class="item">
+                <button id="item-1" class="like-button" onclick="itemLike(1)">
+                    <svg class="heart-icon" viewBox="0 0 24 24">
+                        <path class="heart-path"
+                            d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                    </svg>
+                </button>
+                <!-- i gave this class because the image of sort by categoty item is larger -->
+                <img class="selling-img" src="/assets/images/onions.svg" alt="beef">
+                <h5>onions</h5> <!-- im using h5 instead of h6 because of the styling i already gave o h6 -->
+                <p class="price">₦500.00</p>
+                <a href="#" class="add-to-cart" onclick="addToCart()">Add to Cart</a>
+            </div>
+
+
+            <div class="item">
+                <button id="item-2" class="like-button" onclick="itemLike(2)">
+                    <svg class="heart-icon" viewBox="0 0 24 24">
+                        <path class="heart-path"
+                            d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                    </svg>
+                </button>
+                <!-- i gave this class because the image of sort by categoty item is larger -->
+                <img class="selling-img" src="/assets/images/palm oil.svg" alt="beef">
+                <h5>Palm Oil</h5> <!-- im using h5 instead of h6 because of the styling i already gave o h6 -->
+                <p class="price">₦10,000.00</p>
+                <a href="#" class="add-to-cart" onclick="addToCart()">Add to Cart</a>
+            </div>
+
+
+            <div class="item">
+                <button id="item-3" class="like-button" onclick="itemLike(3)">
+                    <svg class="heart-icon" viewBox="0 0 24 24">
+                        <path class="heart-path"
+                            d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                    </svg>
+                </button>
+                <!-- i gave this class because the image of sort by categoty item is larger -->
+                <img class="selling-img" src="/assets/images/stockfish.svg" alt="beef">
+                <h5>Stockfish</h5> <!-- im using h5 instead of h6 because of the styling i already gave o h6 -->
+                <p class="price">₦4,000.00</p>
+                <a href="#" class="add-to-cart" onclick="addToCart()">Add to Cart</a>
+            </div>
+
+
+            <div class="item">
+                <button id="item-4" class="like-button" onclick="itemLike(4)">
+                    <svg class="heart-icon" viewBox="0 0 24 24">
+                        <path class="heart-path"
+                            d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                    </svg>
+                </button>
+                <!-- i gave this class because the image of sort by categoty item is larger -->
+                <a href="/product-details.html" class="link">
+                    <img class="selling-img" src="/assets/images/tomatoes.svg" alt="beef">
+                    <h5>Fresh Tomatoes</h5> <!-- im using h5 instead of h6 because of the styling i already gave o h6 -->
+                    <p class="price">₦8,000.00</p>
+                </a>
+                <a href="#" class="add-to-cart" onclick="addToCart()">Add to Cart</a>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="product-section">
+        <div class=".header">
+            <h3>New Arrivals</h3>
+            <!-- <a href="#">view more <img src="/assets/images/arrow right.svg" alt=""></a> -->
+        </div>
+
+        <div class="product-row">
+            <div class="item  hot-item">
+                <div class="item-title">
+                    <img src="/assets/images/hot.svg" alt="">
+                    <button id="product-1" class="like-button" onclick="productLike(1)">
+                        <svg class="heart-icon" viewBox="0 0 24 24">
+                            <path class="heart-path"
+                                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                        </svg>
+                    </button>
+                </div>
+                <!-- i gave this class because the image of sort by categoty item is larger -->
+                <img class="selling-img" src="/assets/images/plantain.svg" alt="beef">
+                <h5>plantain</h5> <!-- im using h5 instead of h6 because of the styling i already gave o h6 -->
+                <p class="price">₦2,000.00</p>
+                <a href="#" class="add-to-cart" onclick="addToCart()">Add to Cart</a>
+            </div>
+            <div class="item  hot-item">
+                <div class="item-title">
+                    <img src="/assets/images/hot.svg" alt="">
+                    <button id="product-2" class="like-button" onclick="productLike(2)">
+                        <svg class="heart-icon" viewBox="0 0 24 24">
+                            <path class="heart-path"
+                                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                        </svg>
+                    </button>
+                </div>
+                <!-- i gave this class because the image of sort by categoty item is larger -->
+                <img class="selling-img" src="/assets/images/yam.svg" alt="beef">
+                <h5>Yam-Small</h5> <!-- im using h5 instead of h6 because of the styling i already gave o h6 -->
+                <p class="price">₦1,500.00</p>
+                <a href="#" class="add-to-cart" onclick="addToCart()">Add to Cart</a>
+            </div>
+            <div class="item  hot-item">
+                <div class="item-title">
+                    <img src="/assets/images/hot.svg" alt="">
+                    <button id="product-3" class="like-button" onclick="productLike(3)">
+                        <svg class="heart-icon" viewBox="0 0 24 24">
+                            <path class="heart-path"
+                                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                        </svg>
+                    </button>
+                </div>
+                <!-- i gave this class because the image of sort by categoty item is larger -->
+                <img class="selling-img" src="/assets/images/beef.svg" alt="beef">
+                <h5>Meat</h5> <!-- im using h5 instead of h6 because of the styling i already gave o h6 -->
+                <p class="price">₦4,000.00</p>
+                <a href="#" class="add-to-cart" onclick="addToCart()">Add to Cart</a>
+            </div>
+            <div class="item  hot-item">
+                <div class="item-title">
+                    <img src="/assets/images/hot.svg" alt="">
+                    <button id="product-4" class="like-button" onclick="productLike(4)">
+                        <svg class="heart-icon" viewBox="0 0 24 24">
+                            <path class="heart-path"
+                                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                        </svg>
+                    </button>
+                </div>
+                <!-- i gave this class because the image of sort by categoty item is larger -->
+                <img class="selling-img" src="/assets/images/green beans.svg" alt="beef">
+                <h5>Green Beans</h5> <!-- im using h5 instead of h6 because of the styling i already gave o h6 -->
+                <p class="price">₦1,000.00</p>
+                <a href="#" class="add-to-cart" onclick="addToCart()">Add to Cart</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="product-section">
+        <div class=".header">
+            <h3>Frequently Searched</h3>
+            <!-- <a href="#">view more <img src="/assets/images/arrow right.svg" alt=""></a> -->
+        </div>
+        <div class="product-row">
+
+
+            <div class="item">
+                <button id="item-5" class="like-button" onclick="itemLike(5)">
+                    <svg class="heart-icon" viewBox="0 0 24 24">
+                        <path class="heart-path"
+                            d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                    </svg>
+                </button>
+                <!-- i gave this class because the image of sort by categoty item is larger -->
+                <img class="selling-img" src="/assets/images/cocoyam.svg" alt="beef">
+                <h5>Cocoyam</h5> <!-- im using h5 instead of h6 because of the styling i already gave o h6 -->
+                <p class="price">₦1,000.00</p>
+                <a href="#" class="add-to-cart" onclick="addToCart()">Add to Cart</a>
+            </div>
+
+
+            <div class="item">
+                <button id="item-6" class="like-button" onclick="itemLike(6)">
+                    <svg class="heart-icon" viewBox="0 0 24 24">
+                        <path class="heart-path"
+                            d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                    </svg>
+                </button>
+                <!-- i gave this class because the image of sort by categoty item is larger -->
+                <img class="selling-img" src="/assets/images/rice.svg" alt="beef">
+                <h5>rice-Quater Bang</h5> <!-- im using h5 instead of h6 because of the styling i already gave o h6 -->
+                <p class="price">₦40,000.00</p>
+                <a href="#" class="add-to-cart" onclick="addToCart()">Add to Cart</a>
+            </div>
+
+
+            <div class="item">
+                <button id="item-7" class="like-button" onclick="itemLike(7)">
+                    <svg class="heart-icon" viewBox="0 0 24 24">
+                        <path class="heart-path"
+                            d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                    </svg>
+                </button>
+                <!-- i gave this class because the image of sort by categoty item is larger -->
+                <img class="selling-img" src="/assets/images/ice fish.svg" alt="beef">
+                <h5>Fish</h5> <!-- im using h5 instead of h6 because of the styling i already gave o h6 -->
+                <p class="price">₦1,500.00</p>
+                <a href="#" class="add-to-cart" onclick="addToCart()">Add to Cart</a>
+            </div>
+
+
+            <div class="item">
+                <button id="item-8" class="like-button" onclick="itemLike(8)">
+                    <svg class="heart-icon" viewBox="0 0 24 24">
+                        <path class="heart-path"
+                            d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                    </svg>
+                </button>
+                <!-- i gave this class because the image of sort by categoty item is larger -->
+                <img class="selling-img" src="/assets/images/pepper.svg" alt="beef">
+                <h5>Pepper</h5> <!-- im using h5 instead of h6 because of the styling i already gave o h6 -->
+                <p class="price">₦5,500.00</p>
+                <a href="#" class="add-to-cart" onclick="addToCart()">Add to Cart</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="product-section">
+        <div class=".header">
+            <div>
+                <h3>Meal Suggestions</h3>
+                <p>What kind of meal do you want to prepare?</p>
+            </div>
+            <a href="#">view more <img src="/assets/images/arrow right.svg" alt=""></a>
+        </div>
+        <div class="product-row">
+            <div class="item">
+                <img class="categories-img" src="/assets/images/rice recipes.svg" alt="beef">
+                <h6>Nigerian Rice Recipes</h6>
+                <p>Fried  rice, Jollof rice, local rice etc </p>
+            </div>
+            <div class="item">
+                <img class="categories-img" src="/assets/images/beans recipes.svg" alt="beef">
+                <h6>Beans Recipes</h6>
+                <p>Porridge beans, moi-moi, bean cake etc</p>
+            </div>
+            <div class="item">
+                <img class="categories-img" src="/assets/images/plantain.svg" alt="beef">
+                <h6>Plantain Recipes</h6>
+                <p> Porridge plantain, etc</p>
+            </div>
+            <div class="item">
+                <img class="categories-img" src="/assets/images/egges.svg" alt="beef">
+                <h6>Egg Recipes</h6>
+                <p>Egg sauce, Egg soup, etc</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-section">
+            <h3 class="review-title">What Our Customers Say</h3>
+        <div class="review-row">
+                <div class="comment">
+                    <img class="profile-img" src="/assets/images/profile-picture1.jfif" alt="">
+                    <h6>JOSEPHINE</h6>
+                    <p> I ordered some fruits and vegetables from this website and was blown away by how fresh everything was when it arrived. The packaging was great, keeping everything cool and crisp.</p>
+                    <img class="rating" src="/assets/images/three stars.png" alt="">
+                </div>
+                <div class="comment">
+                    <img class="profile-img" src="/assets/images/profile picture 2.jfif" alt="">
+                    <h6>BASSEY</h6>
+                    <p>I've been using this website for a while now to order meats and seafood, and I've never been disappointed. The products always arrive on time and are of the highest quality. I love the convenience of having fresh food delivered right to my door</p>
+                    <img class="rating" src="/assets/images/two stars.svg" alt="">
+                </div>
+                <div class="comment">
+                    <img class="profile-img" src="/assets/images/profile picture 3.jfif" alt="">
+                    <h6>CHIOMA</h6>
+                    <p>As a busy professional, I don't always have time to go grocery shopping. This website has been a lifesaver for me. I can order all of my perishable items online and have them delivered right to my doorstep.</p>
+                    <img class="rating" src="/assets/images/three stars.png" alt="">
+                </div>
+                
+                <div class="comment">
+                    <img class="profile-img" src="/assets/images/profile picture 4.jfif" alt="">
+                    <h6>ESTHER</h6>
+                    <p>With three kids and a full-time job, grocery shopping is the last thing I want to deal with. This website has made my life so much easier. I can order everything I need online, and it's always delivered fresh and on time.</p>
+                    <img class="rating" src="/assets/images/four stars.svg" alt="">
+                </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="newsletter-text">
+            <h2>Join Us and Get Updates</h2>
+            <p>Subscribe to our Newsletters for latest news and Updates</p>
+        </div>
+        <form action="">
+            <input class="email" type="email" placeholder="Enter email address" required>
+            <input class="subscribe" name="submit" type="submit" value="Subscribe">
+        </form>
+    </section>
+
+    <footer>
+        <div class="directory">
+            <div class="group group1">
+                <div>
+                    <h2>Useful Links</h2>
+                    <div class="decorative-lines">
+                        <span class="line line-yellow"></span>
+                        <span class="line line-white"></span>
+                    </div>
+                </div>
+                <div class="footer-link">
+                    <a href="#">About Us</a>
+                    <a href="">FAQs</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">categories</a>
+                </div>
+
+            </div>
+            <div class="group group2">
+                <div>
+                    <h2>Contact</h2>
+                    <div class="decorative-lines">
+                        <span class="line line-yellow"></span>
+                        <span class="line line-white"></span>
+                    </div>
+                </div>
+                <div class="footer-link">
+                    <a href="mailto:freshfaremart@gmail.com">freshfaremart@gmail.com</a>
+                    <a href="tel:+234 815-0977-523">+234 815-0977-523</a>
+                </div>
+
+            </div>
+
+            <div class="group group3">
+                <div>
+                    <h2>Connect</h2>
+                    <div class="decorative-lines">
+                        <span class="line line-yellow"></span>
+                        <span class="line line-white"></span>
+                    </div>
+                </div>
+                <div class="footer-link">
+                    <a href="#"><img src="/assets/images/facebook.svg" alt="">Facebook</a>
+                    <a href="#"><img src="/assets/images/x.svg" alt="">X</a>
+                    <a href="#"><img src="/assets/images/instagram.svg" alt="">Instagram</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="watermark">
+            <img class="first" src="/assets/images/watermark1.png" alt="">
+            <img class="second" src="/assets/images/watermark.png" alt="">
+        </div>
+        <hr>
+        <p>Copyright © 2024 Freshfaremart.ng </p>
+    </footer>
+
+
+    
+    <script src="/assets/script.js"></script>
+</body>
+
+</html>
